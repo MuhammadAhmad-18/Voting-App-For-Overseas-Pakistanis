@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7CD581"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1NABallotPaper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:text="NA BALLOT PAPER"
+            android:textAlignment="center"
+            android:textColor="#090909"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="222dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView1ECP"
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                app:srcCompat="@drawable/img1" />
+
+            <TextView
+                android:id="@+id/textView2NABPName"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="Name: "
+                android:textAlignment="center"
+                android:textColor="#5B5757"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3NABPCnic"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="CNIC: "
+                android:textAlignment="center"
+                android:textColor="#5B5757"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3NABPHalqa"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="HALQA: "
+                android:textAlignment="center"
+                android:textColor="#5B5757"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <!--                    Bat Symbol-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="317dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="50dp"
+                        android:background="@drawable/rounded_corners"
+                        android:backgroundTint="#E6DFDF"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView1NABPBat"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_marginTop="20dp"
+                            app:srcCompat="@drawable/pti" />
+
+                        <TextView
+                            android:id="@+id/textView1NABPBat"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:paddingLeft="15dp"
+                            android:text="@string/member_murad_saeed"
+                            android:textColor="#0B0B0B"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/buttonNABPBat"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="80dp"
+                            android:backgroundTint="#148718"
+                            android:text="VOTE"
+                            android:textColor="#FBFBFB"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <!--                    Sher Symbol-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="317dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="50dp"
+                        android:background="@drawable/rounded_corners"
+                        android:backgroundTint="#E6DFDF"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView2NABPSher"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="10dp"
+                            app:srcCompat="@drawable/sher" />
+
+                        <TextView
+                            android:id="@+id/textView2NABPSher"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:paddingLeft="15dp"
+                            android:text="@string/member_khwaja_asif"
+                            android:textColor="#090909"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/buttonNABPSher"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="80dp"
+                            android:backgroundTint="#148718"
+                            android:text="VOTE"
+                            android:textColor="#FFFBFB"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <!--                    Arrow Symbol-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="317dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="50dp"
+                        android:background="@drawable/rounded_corners"
+                        android:backgroundTint="#E6DFDF"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView3NABPArrow"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_marginTop="20dp"
+                            app:srcCompat="@drawable/arrow" />
+
+                        <TextView
+                            android:id="@+id/textView3NABPArrow"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:paddingLeft="15dp"
+                            android:text="@string/member_bilawal_bhutto"
+                            android:textColor="#0B0B0B"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/buttonNABPArrow"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="80dp"
+                            android:backgroundTint="#148718"
+                            android:text="VOTE"
+                            android:textColor="#F8F6F6"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <!--Kite Symbol-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="317dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="50dp"
+                        android:background="@drawable/rounded_corners"
+                        android:backgroundTint="#E6DFDF"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView4NABPKite"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_marginTop="20dp"
+                            app:srcCompat="@drawable/kite" />
+
+                        <TextView
+                            android:id="@+id/textView4NABPKite"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:paddingLeft="15dp"
+                            android:text="@string/member_mustafa_kamal"
+                            android:textColor="#040404"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/buttonNABPKite"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="80dp"
+                            android:backgroundTint="#148718"
+                            android:text="VOTE"
+                            android:textColor="#FFFEFE"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <!--                    Book Symbol-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="317dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="50dp"
+                        android:background="@drawable/rounded_corners"
+                        android:backgroundTint="#E6DFDF"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView5NABPBook"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_marginTop="20dp"
+                            app:srcCompat="@drawable/book" />
+
+                        <TextView
+                            android:id="@+id/textView5NABPBook"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:paddingLeft="15dp"
+                            android:text="@string/member_maulana_sami_ul_haq"
+                            android:textColor="#040404"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/buttonNABPBook"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="80dp"
+                            android:backgroundTint="#148718"
+                            android:text="VOTE"
+                            android:textColor="#FAF7F7"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <!--                    Lantern Symbol-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="317dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="50dp"
+                        android:background="@drawable/rounded_corners"
+                        android:backgroundTint="#E6DFDF"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView6NABPLantern"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_marginTop="20dp"
+                            app:srcCompat="@drawable/lantern" />
+
+                        <TextView
+                            android:id="@+id/textView6NABPLantern"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:paddingLeft="15dp"
+                            android:text="@string/member_bacha_khan"
+                            android:textColor="#070707"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/buttonNABPLantern"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="80dp"
+                            android:backgroundTint="#148718"
+                            android:text="VOTE"
+                            android:textColor="#FBFBFB"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <!--                    Tree Symbol-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="317dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="50dp"
+                        android:background="@drawable/rounded_corners"
+                        android:backgroundTint="#E6DFDF"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView7NABPTree"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_marginTop="20dp"
+                            app:srcCompat="@drawable/tree" />
+
+                        <TextView
+                            android:id="@+id/textView7NABPTree"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:paddingLeft="15dp"
+                            android:text="@string/member_chaudry_saeed_ahmad_khan"
+                            android:textColor="#090909"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/buttonNABPTree"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="80dp"
+                            android:backgroundTint="#148718"
+                            android:text="VOTE"
+                            android:textColor="#FDFBFB"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <!--                    Axe Symbol-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="317dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="50dp"
+                        android:background="@drawable/rounded_corners"
+                        android:backgroundTint="#E6DFDF"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView8NABPAxe"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_marginTop="20dp"
+                            app:srcCompat="@drawable/axe" />
+
+                        <TextView
+                            android:id="@+id/textView8NABPAxe"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:paddingLeft="15dp"
+                            android:text="@string/member_ali_khan"
+                            android:textColor="#020202"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/buttonNABPAxe"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="80dp"
+                            android:backgroundTint="#148718"
+                            android:text="VOTE"
+                            android:textColor="#FAF8F8"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <!--                    Cycle Symbol-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="317dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="50dp"
+                        android:background="@drawable/rounded_corners"
+                        android:backgroundTint="#E6DFDF"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView9NABPCycle"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_marginTop="20dp"
+                            app:srcCompat="@drawable/cycle" />
+
+                        <TextView
+                            android:id="@+id/textView9NABPCycle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:paddingLeft="15dp"
+                            android:text="@string/member_mansoor_khan"
+                            android:textColor="#070707"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/buttonNABPCycle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="80dp"
+                            android:backgroundTint="#148718"
+                            android:text="VOTE"
+                            android:textColor="#FAF8F8"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <!--                    Eagle Symbol-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="317dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/rounded_corners"
+                        android:backgroundTint="#E6DFDF"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView10NABPEagle"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_marginTop="20dp"
+                            app:srcCompat="@drawable/eagle" />
+
+                        <TextView
+                            android:id="@+id/textView10NABPEagle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:paddingLeft="15dp"
+                            android:text="@string/member_haji_sher_zaman"
+                            android:textColor="#040404"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/buttonNABPEagle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="80dp"
+                            android:backgroundTint="#148718"
+                            android:text="VOTE"
+                            android:textColor="#FDFAFA"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

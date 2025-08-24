@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">VotingApplication3</string>
+    <string name="Username">username</string>
+    <string name="Password">password\n</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="sign_up_first_time_users_ntap_on_the_register_button_n_enter_your_full_name_username_and_password_n_tap_sign_up_nyou_ll_see_a_message_confirming_successful_registration_nlog_in_returning_users_nenter_your_registered_username_and_password_on_the_login_screen_ntap_the_log_in_button_nif_the_credentials_are_correct_you_ll_be_logged_in_successfully_nvoter_verification_nenter_your_national_id_or_any_required_voter_credentials_for_verification_nonce_verified_proceed_to_the_next_step_nview_party_options_a_list_of_political_parties_will_be_displayed_nreview_the_party_names_and_their_symbols_carefully_ncast_your_vote_select_the_party_you_wish_to_vote_for_confirm_your_selection_when_prompted_na_message_will_appear_confirming_your_vote_has_been_successfully_cast_nvote_status_after_voting_your_status_will_change_to_voted_and_you_won_t_be_able_to_vote_again_nthis_ensures_one_person_one_vote_nlog_out_once_done_you_can_safely_log_out_from_the_app">(1). Sign Up (First-Time Users): \n* Tap on the “Register” button. \n* Enter your full name, username, and password. \n* Tap “Sign Up”. \n* You’ll see a message confirming successful registration. \n(2). Log In (Returning Users): \n* Enter your registered username and password on the login screen. \n* Tap the “Log In” button. \n* If the credentials are correct, you’ll be logged in successfully. \n(3). Voter Verification: \n* Enter your National ID or any required voter credentials for verification. \n* Once verified, proceed to the next step. \n(4). View Party Options: A list of political parties will be displayed. \n* Review the party names and their symbols carefully. \n(5). Cast Your Vote: \n* Select the party you wish to vote for. Confirm your selection when prompted. \n* A message will appear confirming your vote has been successfully cast. \n(6). Vote Status: \n* After voting, your status will change to “Voted”, and you won’t be able to vote again. \n* This ensures one person, one vote. \n(7). Log Out: \n*Once done, you can safely log out from the app.</string>
+    <string name="next">Next</string>
+    <string name="i_have_read_the_instructions_carefully">I have read the instructions carefully.</string>
+    <string name="member_khwaja_asif">MEMBER: Khwaja Asif</string>
+    <string name="member_murad_saeed">MEMBER: Murad Saeed</string>
+    <string name="member_bilawal_bhutto">MEMBER: Bilawal Bhutto</string>
+    <string name="member_mustafa_kamal">MEMBER: Mustafa Kamal</string>
+    <string name="member_maulana_sami_ul_haq">MEMBER: Maulana Sami ul Haq</string>
+    <string name="member_bacha_khan">MEMBER: Bacha Khan</string>
+    <string name="member_chaudry_saeed_ahmad_khan">MEMBER: Chaudry Saeed Ahmad Khan</string>
+    <string name="member_ali_khan">MEMBER: Ali Khan</string>
+    <string name="member_mansoor_khan">MEMBER: Mansoor Khan</string>
+    <string name="member_haji_sher_zaman">MEMBER: Haji Sher Zaman</string>
+    <string name="member_shakeel_ahmad">MEMBER: Shakeel Ahmad</string>
+    <string name="member_amir_maqam">MEMBER: Amir Maqam</string>
+    <string name="member_humayun_khan">MEMBER: Humayun Khan</string>
+    <string name="member_mustafa_kamal_2">MEMBER: Mustafa Kamal</string>
+    <string name="member_maulana_habib_ul_haq">MEMBER: Maulana Habib ul Haq</string>
+    <string name="member_nisar_baz">MEMBER: Nisar Baz</string>
+    <string name="member_ali_rizvi">MEMBER: Ali Rizvi</string>
+    <string name="member_chaudry_zubair">MEMBER: Chaudry Zubair</string>
+    <string name="member_shah_khan">MEMBER: Shah Khan</string>
+    <string name="member_mamnoon_khan">MEMBER: Mamnoon Khan</string>
+</resources>

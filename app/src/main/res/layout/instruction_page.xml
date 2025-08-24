@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#E7EBE7"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#E7EBE7"
+            android:fontFamily="serif"
+            android:text="Instructions"
+            android:textAlignment="center"
+            android:textColor="#040404"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <!-- Scrollable Instructions -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFEFE"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FBFBF7"
+                    android:text="@string/sign_up_first_time_users_ntap_on_the_register_button_n_enter_your_full_name_username_and_password_n_tap_sign_up_nyou_ll_see_a_message_confirming_successful_registration_nlog_in_returning_users_nenter_your_registered_username_and_password_on_the_login_screen_ntap_the_log_in_button_nif_the_credentials_are_correct_you_ll_be_logged_in_successfully_nvoter_verification_nenter_your_national_id_or_any_required_voter_credentials_for_verification_nonce_verified_proceed_to_the_next_step_nview_party_options_a_list_of_political_parties_will_be_displayed_nreview_the_party_names_and_their_symbols_carefully_ncast_your_vote_select_the_party_you_wish_to_vote_for_confirm_your_selection_when_prompted_na_message_will_appear_confirming_your_vote_has_been_successfully_cast_nvote_status_after_voting_your_status_will_change_to_voted_and_you_won_t_be_able_to_vote_again_nthis_ensures_one_person_one_vote_nlog_out_once_done_you_can_safely_log_out_from_the_app"
+                    android:textColor="#040303"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+        </ScrollView>
+
+        <!-- Checkbox -->
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/i_have_read_the_instructions_carefully"
+            android:textColor="#0A0B0A"
+            android:textStyle="bold" />
+
+        <!-- Next Button -->
+        <Button
+            android:id="@+id/registerButtonCredential"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#1AA14A"
+            android:onClick="onClickNext"
+            android:text="@string/next"
+            android:textColor="#070707"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="#E7EBE7"-->
+<!--        android:orientation="vertical"-->
+<!--        tools:layout_editor_absoluteX="0dp"-->
+<!--        tools:layout_editor_absoluteY="28dp">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView3"-->
+<!--            android:layout_width="308dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="35dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:layout_marginRight="150dp"-->
+<!--            android:background="#E7EBE7"-->
+<!--            android:fontFamily="serif"-->
+<!--            android:text="Instructions"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="#040404"-->
+<!--            android:textSize="48sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <ScrollView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="497dp"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                android:background="#FFFEFE"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView5"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="497dp"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:background="#FBFBF7"-->
+<!--                    android:text="@string/sign_up_first_time_users_ntap_on_the_register_button_n_enter_your_full_name_username_and_password_n_tap_sign_up_nyou_ll_see_a_message_confirming_successful_registration_nlog_in_returning_users_nenter_your_registered_username_and_password_on_the_login_screen_ntap_the_log_in_button_nif_the_credentials_are_correct_you_ll_be_logged_in_successfully_nvoter_verification_nenter_your_national_id_or_any_required_voter_credentials_for_verification_nonce_verified_proceed_to_the_next_step_nview_party_options_a_list_of_political_parties_will_be_displayed_nreview_the_party_names_and_their_symbols_carefully_ncast_your_vote_select_the_party_you_wish_to_vote_for_confirm_your_selection_when_prompted_na_message_will_appear_confirming_your_vote_has_been_successfully_cast_nvote_status_after_voting_your_status_will_change_to_voted_and_you_won_t_be_able_to_vote_again_nthis_ensures_one_person_one_vote_nlog_out_once_done_you_can_safely_log_out_from_the_app"-->
+<!--                    android:textColor="#000000"-->
+<!--                    android:textSize="16sp"-->
+<!--                    android:textStyle="bold|italic" />-->
+<!--            </LinearLayout>-->
+<!--        </ScrollView>-->
+
+
+<!--        <CheckBox-->
+<!--            android:id="@+id/checkBox"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:onClick="onCheck"-->
+<!--            android:text="@string/i_have_read_the_instructions_carefully"-->
+<!--            android:textColor="#0A0B0A"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/nextButton"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:backgroundTint="#1AA14A"-->
+<!--            android:text="@string/next"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="bold|italic" />-->
+
+<!--    </LinearLayout>-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
